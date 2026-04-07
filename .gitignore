@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+*.so
+
+# Data (keep raw datasets, ignore generated output)
+data/raw/lean_workbook.json
+data/raw/lean_workbook.jsonl
+data/raw/*.parquet
+data/logs/
+data/pool/
+data/demo_output/
+
+# Lean
+lean_project/.lake/
+lean_project/lake-packages/
+lean_project/lake-manifest.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store

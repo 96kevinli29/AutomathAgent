@@ -1,0 +1,37 @@
+[
+  {
+    "id": "test_nat_add_zero",
+    "source": "miniF2F",
+    "nl_statement": "Prove that for all natural numbers n, n + 0 = n.",
+    "formal_statement": "theorem nat_add_zero (n : Nat) : n + 0 = n",
+    "difficulty": "easy"
+  },
+  {
+    "id": "test_add_comm",
+    "source": "miniF2F",
+    "nl_statement": "Prove that addition of natural numbers is commutative: a + b = b + a.",
+    "formal_statement": "theorem add_comm (a b : Nat) : a + b = b + a",
+    "difficulty": "easy"
+  },
+  {
+    "id": "test_one_plus_one",
+    "source": "miniF2F",
+    "nl_statement": "Prove that 1 + 1 = 2.",
+    "formal_statement": "theorem one_plus_one : 1 + 1 = 2",
+    "difficulty": "easy"
+  },
+  {
+    "id": "test_mul_zero",
+    "source": "ProofNet",
+    "nl_statement": "Prove that for any natural number n, n * 0 = 0.",
+    "formal_statement": "theorem mul_zero (n : Nat) : n * 0 = 0",
+    "difficulty": "easy"
+  },
+  {
+    "id": "test_pow_two_pos",
+    "source": "ProofNet",
+    "nl_statement": "Prove that 2^n > 0 for all natural numbers n.",
+    "formal_statement": "theorem pow_two_pos (n : Nat) : 2 ^ n > 0",
+    "difficulty": "medium"
+  }
+]

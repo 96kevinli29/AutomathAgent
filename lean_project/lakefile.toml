@@ -1,0 +1,12 @@
+name = "LeanVerify"
+version = "0.1.0"
+leanOptions = []
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[require]]
+name = "repl"
+git = "https://github.com/leanprover-community/repl"
+rev = "master"

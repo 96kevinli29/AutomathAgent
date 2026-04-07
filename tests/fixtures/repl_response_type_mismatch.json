@@ -1,0 +1,12 @@
+{
+  "env": 0,
+  "messages": [
+    {
+      "severity": "error",
+      "pos": {"line": 3, "column": 10},
+      "endPos": {"line": 3, "column": 15},
+      "data": "type mismatch\n  rfl\nhas type\n  ?a = ?a\nbut is expected to have type\n  1 + 1 = 3"
+    }
+  ],
+  "sorries": []
+}
